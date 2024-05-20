@@ -5,14 +5,14 @@ import smileyFace from "../../assets/smiley.png"
 
 const Jokes = () => {
   return (
-    <section className='jokes-sec'>
-      <div className='joke'>
+    <section className='jokes-sec --center-all'>
+      <div className='joke --bg-light --card'>
         <h2>Random Joke Generator</h2>
-        <img src={smileyFace} alt='Smiley face'/>
+        <img className='smiley' src={smileyFace} alt='Smiley face'/>
         <hr />
-        <p>Lorem sdfijsd pojerm</p>
+        <p className='--my2'>Lorem sdfijsd pojerm</p>
         <hr />
-        <button>Generate New Joke</button>
+        <button className='--btn --btn-primary --btn-block'>Generate New Joke</button>
       </div>
     </section>
   )

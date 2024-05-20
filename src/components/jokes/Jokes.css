@@ -1,0 +1,19 @@
+.jokes-sec {
+    background-color: var(--dark-blue);
+    height: 100vh;
+}
+
+.joke {
+    width: 60%;
+    max-width: 500px;
+    padding: 1rem;
+}
+
+.smiley {
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.joke button {
+    margin-top: 1rem;
+}
